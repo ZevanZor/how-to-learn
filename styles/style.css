@@ -22,15 +22,13 @@
 .header__square-pic {
   height: 568px;
   width: 568px;
+  background-color:  #2f80ed;
+  position: absolute;
+  right: 0;
+  top: 64px;
+  z-index: 1;
 }
-
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
+  
 .header__position {
   position: relative;
   padding-left: 64px;
@@ -51,14 +49,6 @@
   bottom: 0;
   z-index: 1;
 }
-.header__square-pic {
-  background-color:  #2f80ed;
-  position: absolute;
-  right: 0;
-  top: 64px;
-  z-index: 1;
-}
-
 .header__subtitle {
   position: absolute;
   bottom: 30px;
@@ -107,9 +97,9 @@
   margin: auto;
 }
 .two-columns__span-accent{
-  font-size:24px ;
+  font-size:24px;
   line-height:34px;
-  font-weight:600 ;
+  font-weight:600;
 }
 .two-columns__paragraph_indent {
   margin: 30px 0px;
@@ -117,21 +107,21 @@
 .digits {
   margin-bottom: 100px;
 }
-.section_flex{
+.section__flex{
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 .section-title {
   line-height:1.15;
-  font-size:60px ;
-  font-weight:600 ;
+  font-size:60px;
+  font-weight:600;
   margin: 0;
   max-width: 60%;
 }
 .section-subtitle {
   line-height:34px;
-  font-size:24px ;
+  font-size:24px;
   font-weight:normal;
   margin: 20px 0 0 0;
   max-width: 60%;
@@ -152,13 +142,13 @@
 }
 .table__heading {
   line-height:1.15;
-  font-size:24px ;
+  font-size:24px;
   font-weight:600;
   margin: 0;
 }
 .table__text {
   line-height:1.2;
-  font-size:18px ;
+  font-size:18px;
   font-weight:normal;
   margin: 20px 0;
 }
@@ -177,16 +167,16 @@
 .feynman__title {
   font-size: 120px;
   line-height:1.15;
-  font-weight:600 ;
+  font-weight:600;
   margin: 100px 0 70px 0;
   width: 648px;
   height: 50%;
   text-align: center;
 }
 .feynman__subtitle {
-  font-size:36px ;
+  font-size:36px;
   line-height:51px;
-  font-weight:normal ;
+  font-weight:normal;
   margin: 0;
 }
 .feynman__link {
@@ -224,6 +214,9 @@
   margin-bottom: 90px;
 }
 .table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
   min-width: 200px;
   margin-top: 80px;
 }
@@ -242,7 +235,7 @@
   width: 90%;
 }
 .footer__columns_content_copyright {
-  flex-basis: 711px ;
+  flex-basis: 711px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
