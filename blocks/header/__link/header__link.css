@@ -1,9 +1,9 @@
 .header__link {
-    text-decoration:none;
-    z-index: 2;
-    color: #2f80ed;
-    transition: opacity .9s ease;
-  }
-  .header__link:hover {
-    opacity: 0.4;
-  }
+  text-decoration: none;
+  z-index: 2;
+  color: #2f80ed;
+  transition: opacity .9s ease;
+}
+.header__link:hover {
+  opacity: 0.4;
+}
